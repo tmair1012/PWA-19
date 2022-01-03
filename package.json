@@ -1,29 +1,28 @@
 {
-  "name": "budget-app",
+  "name": "pwa-19",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using a previous created starter code, create functionallity to use application offline and add ability for data to be added to database when connection returned.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "lite-server": "lite-server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/tmair1012/PWA-19.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/tmair1012/PWA-19/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/tmair1012/PWA-19#readme",
   "dependencies": {
     "cli": "^1.0.1",
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "heroku": "^7.59.2",
-    "mongoose": "^5.13.13",
+    "mongoose": "^6.1.4",
     "morgan": "^1.10.0"
   }
 }
